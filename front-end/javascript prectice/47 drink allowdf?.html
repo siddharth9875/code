@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drink allowd</title>
+</head>
+
+<body>
+    <script>
+        let drink = (age, value) => {
+            if (age > 18 && value) {
+                console.log(true);
+                return true;
+            } else {
+                console.log(false);
+                return false;
+            }
+        }
+
+
+
+        drink(10, true);
+        drink(10, false);
+        drink(19, false);
+        drink(30, true);
+    </script>
+</body>
+
+</html>

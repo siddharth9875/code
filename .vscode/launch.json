@@ -4,7 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
         {
             "type": "java",
             "name": "Current File",
@@ -115,6 +114,12 @@
             "request": "launch",
             "mainClass": "switch_statement",
             "projectName": "code_b00e0866"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/front-end/javascript prectice/47 drink allowdf?.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/front-end/javascript prectice/47 drink allowdf?.html"
         }
     ]
 }
