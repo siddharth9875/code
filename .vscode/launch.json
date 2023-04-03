@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "for_loop",
+            "request": "launch",
+            "mainClass": "for_loop",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
+            "name": "do_while",
+            "request": "launch",
+            "mainClass": "do_while",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
+            "name": "while_loop",
+            "request": "launch",
+            "mainClass": "while_loop",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
