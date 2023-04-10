@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "multidimentional_array",
+            "request": "launch",
+            "mainClass": "multidimentional_array",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
             "name": "for_loop",
             "request": "launch",
             "mainClass": "for_loop",
