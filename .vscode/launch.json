@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "create_class",
+            "request": "launch",
+            "mainClass": "create_class",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
+            "name": "recorsion",
+            "request": "launch",
+            "mainClass": "recorsion",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
+            "name": "method",
+            "request": "launch",
+            "mainClass": "method",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
             "name": "multidimentional_array",
             "request": "launch",
             "mainClass": "multidimentional_array",
