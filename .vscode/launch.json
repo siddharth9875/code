@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "side",
+            "request": "launch",
+            "mainClass": "side",
+            "projectName": "code_b00e0866"
+        },
+        {
+            "type": "java",
             "name": "create_class",
             "request": "launch",
             "mainClass": "create_class",

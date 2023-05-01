@@ -1,7 +1,7 @@
 public class string_method {
     public static void main(String[] args) {
 
-        String name = "pushti";
+        String name = "pusphti";
         System.out.println(name);
 
         System.out.println(name.length());

@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #e232b5, #cc3bc0, #b244c9, #954cd0, #7252d4);
+    background-image: linear-gradient(to bottom, #7b22cf, #5d2ce5, #7a33df, #8f27e5, #7252d4);
 }
 
 .container {
@@ -25,16 +25,17 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px;
-    padding: 20px 0;
+    padding: 20px 80px;
 }
 
-.container .card{
+.container .card {
     position: relative;
     height: 250px;
     background: white;
     display: flex;
     width: 45%;
-    margin: 30px 0;
+    margin: 20px 0px;
+    margin-left: 0px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -43,12 +44,70 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.205);
 }
 
-.container .card .imgbox{
+.container .card .imgbox {
+    
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgba(255, 0, 0, 0.28);
+    background: rgba(255, 255, 255, 0.155);
     backdrop-filter: blur(20px);
+    width: calc(100% - 20px);
     height: calc(100% - 20px);
-    height: calc(100% - 20px);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid rgba(142, 142, 142, 0.249);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.09);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.container .card .imgbox img {
+    width: 130px;
+    height: 130px;
+    /*max-width: 100px;
+   */
+    filter: invert(.5);
+    -webkit-filter: invert();
+   
+}
+
+.container .card .imgbox:hover {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20%;
+    left: -30%;
+}
+
+.container .card .imgbox:hover .imgbox img {
+    width: 75px;
+    height: 75px;
+}
+.card .content{
+   position: absolute;
+   right: 0;
+
+   display: block;
+   margin: 20px;
+   width: calc(100%-1000px);
+   display: flex;
+   flex-direction: column;
+justify-content: center;
+align-items: center;
+   /* text-align: center; */
+}
+
+.card .content h3{
+
 }

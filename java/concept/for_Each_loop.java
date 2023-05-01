@@ -3,16 +3,16 @@ public class for_Each_loop {
         int[] mark = { 87, 56, 44, 89, 66 };
 
         // displaying array
-        System.out.println(mark[0]);
-        System.out.println(mark[1]);
-        System.out.println(mark[2]);
-        System.out.println(mark[3]);
-        System.out.println(mark[4]);
-        System.out.println(" ");
-        System.out.println(" ");
-        System.out.println(" ");
+        // System.out.println(mark[0]);
+        // System.out.println(mark[1]);
+        // System.out.println(mark[2]);
+        // System.out.println(mark[3]);
+        // System.out.println(mark[4]);
+        // System.out.println(" ");
+        // System.out.println(" ");
+        // System.out.println(" ");
 
-        // displaying array using for loop
+        // // displaying array using for loop
 
         // for (int i = 0; mark.length >= i; i++) {
         //     System.out.println(mark[i]);

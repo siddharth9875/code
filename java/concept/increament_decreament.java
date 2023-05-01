@@ -13,6 +13,7 @@ public class increament_decreament {
         short z = 2;
 
         int b = y + z;
+      
         System.out.println(b);
         float c = 3.5f + a;
         System.out.println(c);
