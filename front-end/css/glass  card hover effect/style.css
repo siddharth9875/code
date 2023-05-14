@@ -36,7 +36,20 @@ body::after{
     clip-path: circle(20% at 10% 10%);
 }
 
+.heading{
+    position: absolute;
+    top: 5%;
+    font-size: 3em;
+    color:rgb(0, 149, 255);
+    text-shadow: 0 5px 10px   rgba(168, 161, 161, 0.478);
+}
+
+.heading span{
+    color: rgb(255, 2, 255);
+}
+
 .container{
+    margin-top: 50px;
     position: relative;   
     display: flex;
     justify-content: center;
@@ -99,7 +112,7 @@ body::after{
 }
 
 .container .card .content h3{
-    color: rgba(240, 248, 255, 0.792);
+    color: rgb(0, 149, 255);
     font-size: 1.8em;
 }
 
@@ -114,8 +127,8 @@ body::after{
     display: inline-block;
     padding: 8px 20px;
     margin-top:15px;
-    background-color: aliceblue;
-    color: #020319;
+    background-color: rgb(255, 2, 255);
+    color: white;
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.544);
