@@ -31,7 +31,7 @@ body {
 .container .card {
     position: relative;
     height: 250px;
-    background: white;
+    background: rgba(186, 186, 186, 0.492);
     display: flex;
     width: 45%;
     margin: 20px 0px;
