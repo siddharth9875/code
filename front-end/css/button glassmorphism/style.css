@@ -16,6 +16,16 @@ body {
     background-color: rgb(29, 24, 56);
 }
 
+h1{
+color: rgb(58, 255, 32);
+font-size: 2em;
+position: absolute;
+top: 260px;
+}
+
+h1 span{
+    color: #00f7ff;
+}
 .container {
     width: 600px;
     display: flex;
