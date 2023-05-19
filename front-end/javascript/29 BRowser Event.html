@@ -18,11 +18,11 @@
 
         const eventtype = (event) => {
             let log = document.getElementsByName("log");
-            log.innerText = '${event.type}/n ${log.innerText}';
+            log.innerText = '${event.type}';
         }
 
 
-        document.addEventListener("keydown", eventtype(), true);
+        document.addEventListener("click", eventtype(), true);
 
 
 
